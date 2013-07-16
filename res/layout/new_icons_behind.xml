@@ -43,5 +43,27 @@
         android:layout_height="match_parent"
         android:visibility="invisible"
         android:contentDescription="@string/content_description" />
+
+    <!-- You can remove these two textviews
+    	 they were here just to give credit to the photographer -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:padding="40dp"
+        android:text="Image Credit: Trey Ratcliff"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="https://plus.google.com/u/0/+TreyRatcliff/posts"
+        android:typeface="serif" />
     
 </RelativeLayout>
