@@ -33,7 +33,7 @@
 			    android:layout_gravity="center"
 			    android:contentDescription="@string/content_description"
 			    android:scaleType="centerCrop"
-			    android:src="@mipmap/icon_apex" />
+			    android:src="@drawable/image1_small" />
 
 			<TextView
 			    android:id="@+id/title"

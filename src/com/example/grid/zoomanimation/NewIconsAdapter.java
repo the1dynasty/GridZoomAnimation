@@ -63,12 +63,12 @@ public class NewIconsAdapter extends BaseAdapter{
 			case 0:
 				holder.title.setTextColor(context.getResources()
 						.getColor(R.color.black)); // Change text color here
-				holder.launcher_image.setImageResource(R.mipmap.icon_apex); // Replace with your Icon
+				holder.launcher_image.setImageResource(R.drawable.image1_small); // Replace with your Icon
 				holder.launcher_image.setOnClickListener(new View.OnClickListener() {
 		            @Override
 		            public void onClick(View view) {
 		                NewIconsFragment.zoomImageFromThumb(holder.launcher_image, 
-		                		R.mipmap.banner_apex, // Replace with zoomed Image
+		                		R.drawable.image1, // Replace with zoomed Image
 		                		holder.container); 
 		            }
 		        });
@@ -76,12 +76,12 @@ public class NewIconsAdapter extends BaseAdapter{
 			case 1:
 				holder.title.setTextColor(context.getResources()
 						.getColor(R.color.black)); // Change text color here
-				holder.launcher_image.setImageResource(R.mipmap.icon_nova); // Replace with your Icon
+				holder.launcher_image.setImageResource(R.drawable.image2_small); // Replace with your Icon
 				holder.launcher_image.setOnClickListener(new View.OnClickListener() {
 		            @Override
 		            public void onClick(View view) {
 		                NewIconsFragment.zoomImageFromThumb(holder.launcher_image, 
-		                		R.mipmap.banner_nova, // Replace with zoomed Image
+		                		R.drawable.image2, // Replace with zoomed Image
 		                		holder.container); 
 		            }
 		        });
@@ -89,12 +89,12 @@ public class NewIconsAdapter extends BaseAdapter{
 			case 2:
 				holder.title.setTextColor(context.getResources()
 						.getColor(R.color.black)); // Change text color here
-				holder.launcher_image.setImageResource(R.mipmap.icon_holo); // Replace with your Icon
+				holder.launcher_image.setImageResource(R.drawable.image3_small); // Replace with your Icon
 				holder.launcher_image.setOnClickListener(new View.OnClickListener() {
 		            @Override
 		            public void onClick(View view) {
 		                NewIconsFragment.zoomImageFromThumb(holder.launcher_image, 
-		                		R.mipmap.banner_holo, // Replace with zoomed Image
+		                		R.drawable.image3, // Replace with zoomed Image
 		                		holder.container); 
 		            }
 		        });
@@ -102,12 +102,12 @@ public class NewIconsAdapter extends BaseAdapter{
 			case 3:
 				holder.title.setTextColor(context.getResources()
 						.getColor(R.color.black)); // Change text color here
-				holder.launcher_image.setImageResource(R.mipmap.icon_adw); // Replace with your Icon
+				holder.launcher_image.setImageResource(R.drawable.image4_small); // Replace with your Icon
 				holder.launcher_image.setOnClickListener(new View.OnClickListener() {
 		            @Override
 		            public void onClick(View view) {
 		                NewIconsFragment.zoomImageFromThumb(holder.launcher_image, 
-		                		R.mipmap.banner_adw, // Replace with zoomed Image
+		                		R.drawable.image4, // Replace with zoomed Image
 		                		holder.container); 
 		            }
 		        });
@@ -115,12 +115,25 @@ public class NewIconsAdapter extends BaseAdapter{
 			case 4:
 				holder.title.setTextColor(context.getResources()
 						.getColor(R.color.black)); // Change text color here
-				holder.launcher_image.setImageResource(R.mipmap.icon_al); // Replace with your Icon
+				holder.launcher_image.setImageResource(R.drawable.image5_small); // Replace with your Icon
 				holder.launcher_image.setOnClickListener(new View.OnClickListener() {
 		            @Override
 		            public void onClick(View view) {
 		                NewIconsFragment.zoomImageFromThumb(holder.launcher_image, 
-		                		R.mipmap.banner_al, // Replace with zoomed Image
+		                		R.drawable.image5, // Replace with zoomed Image
+		                		holder.container); 
+		            }
+		        });
+				break;
+			case 5:
+				holder.title.setTextColor(context.getResources()
+						.getColor(R.color.black)); // Change text color here
+				holder.launcher_image.setImageResource(R.drawable.image6_small); // Replace with your Icon
+				holder.launcher_image.setOnClickListener(new View.OnClickListener() {
+		            @Override
+		            public void onClick(View view) {
+		                NewIconsFragment.zoomImageFromThumb(holder.launcher_image, 
+		                		R.drawable.image6, // Replace with zoomed Image
 		                		holder.container); 
 		            }
 		        });

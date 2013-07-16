@@ -68,11 +68,12 @@ public class NewIconsFragment extends SherlockFragment {
 		/************************************************************************
 		 ******************** Add More GridView Items here **********************
 		 ************************************************************************/
-		launcherStuff.add(new LauncherItem("Apex", 0));
-		launcherStuff.add(new LauncherItem("Nova", 1));
-		launcherStuff.add(new LauncherItem("Holo", 2));
-		launcherStuff.add(new LauncherItem("ADW", 3));
-		launcherStuff.add(new LauncherItem("Action", 4));
+		launcherStuff.add(new LauncherItem(getResources().getString (R.string.image_1), 0));
+		launcherStuff.add(new LauncherItem(getResources().getString (R.string.image_2), 1));
+		launcherStuff.add(new LauncherItem(getResources().getString (R.string.image_3), 2));
+		launcherStuff.add(new LauncherItem(getResources().getString (R.string.image_4), 3));
+		launcherStuff.add(new LauncherItem(getResources().getString (R.string.image_5), 4));
+		launcherStuff.add(new LauncherItem(getResources().getString (R.string.image_6), 5));
 
 		
 		NewIconsAdapter adapter = new NewIconsAdapter(getActivity(),
